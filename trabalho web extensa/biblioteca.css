@@ -1,0 +1,181 @@
+html, body{
+	margin: 0;
+  	height: 100%;
+  	min-height: 100%;
+  	min-width: 100%;
+}
+body{
+	background-image: url(space2.png);
+	background-size: cover;
+  	display: flex;
+  	flex-direction: column;
+}
+
+#cabecalho{
+	position: relative;
+	right: 0px;
+	width: 100%;
+	height: 90px;
+	background-color: #bd9acc;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+#button_cabecalho{
+	position: relative;
+	width: 6%;
+	height: 64%;
+	left: 1%;
+	padding-top: 1%;
+	float: left;
+	background-color: transparent;
+	border: none;
+}
+#button_cabecalho2{
+	position: relative;
+	width: 6%;
+	height: 64%;
+	right: 1%;
+	top: 15%;
+	float: right;
+	background-color: transparent;
+	border: none;
+}
+
+#titulo_cabecalho{
+	position: relative;
+	float: left;
+	left: 27%;
+	margin-top: 0px;
+	font-size: 78px;
+	font-family: cambria;
+	color: white;
+}
+#body{
+	position: relative;
+	width: 99%;
+	height: 85%;
+	border: solid #bd9acc 6.5px;
+}
+#principais{
+	position: relative;
+	width: 90%;
+	height: 650px;
+	left: 5%;
+	color: white;
+}
+
+h3{
+	position: relative;
+	left: 0px;
+	margin-top: 2%;
+	margin-bottom: 0px;
+	font-size: 40px;
+	font-family: cambria;
+	width: 20%;
+	height: 10%;
+	color: white;
+}
+
+table{
+	position: relative;
+	width: 100%;
+	height: 90%;
+}
+
+td{
+	position: relative;
+	width: 30%;
+}
+#vazia{
+	position: relative;
+	height: 19%;
+}
+
+#series{
+	background-color: white;
+	width: 10px;
+	height: 10px;
+}
+
+#series_branca{
+	position: relative;
+	background-color: white;
+	left: 9%;
+	width: 80%;
+	height: 25%;
+}
+#series_sla{
+	position: relative;
+	width: 80%;
+	left: 9%;
+	height: 19%;
+	background-color: #bd9acc;
+}
+
+#imgserie{
+	position: absolute;
+	top: -120%;
+	left: 5%;
+	width: 90%;
+	height: 200%;
+}
+
+#play{
+	position: absolute;
+	top: -60%;
+	left: 35%;
+	width: 30%;
+	height: 100%;
+	background-color: transparent;
+	border: none;
+}
+
+h4{
+	position: relative;
+	width: 60%;
+	left: 22%;
+	color: white;
+	font-size: 30px;
+	font-family: cambria;
+}
+
+p{
+	position: relative;
+	width: 60%;
+	top: -12px;
+	left: 22%;
+	color: white;
+	font-size: 23px;
+	font-family: cambria;
+}
+
+#todos{
+	position: relative;
+	width: 96%;
+	top: 50px;
+	height: 500px;
+	bottom: 50px;
+	left: 2%;
+}
+
+.icones {
+    position: fixed;
+    width: 8%;
+    height: 10%;
+    bottom: 2%; 
+    right: 2%; 
+    padding: 1%; 
+    z-index: 10000000; 
+    background-color: transparent;
+}
+.img-responsive{
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+}
+.icones img:hover {
+    
+}

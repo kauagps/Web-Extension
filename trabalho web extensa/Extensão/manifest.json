@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "Space List",
+    "description": "Um organizador de episódio para o chrome",
+    "version": "1.0",
+    "browser_action": {
+        "default_popup": "space.html"
+    }
+}

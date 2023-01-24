@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="space.css"> <!--Conexão com CSS-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space List</title>
+</head>
+<body>
+    <div id="cabecalho"><h1>Principais</h1></div><!--Div com o cabeçãlho principal-->
+    <table id="table_principal">
+        <tr>
+            <div id="ep">
+                <table><!--Tabela com os dados do anime(Final em PHP)-->
+                    <tr>
+                        <tr>
+                            <div id="img">
+                                <img src="JujutsuK.png">
+                            </div>
+                        </tr>
+                        <tr>
+                            <h1 class="hep">Jujutsu Kaisen</h1>
+                            <form action="">
+                                <h1 class="hep">
+                                    T<input type="number" name="temporada" id="input_TE">EP: <input type="number" name="episodio" id="input_TE">
+                                </h1>
+                            </form>
+                        </tr>
+                    </tr>
+                </table>
+            </div>
+        </tr>
+        <tr>
+            <div id="ep"><!--Div com o anime-->
+                <table><!--Tabela com os dados do anime(Final em PHP)-->
+                    <tr>
+                        <tr>
+                            <div id="img">
+                                <img src="brooklyn99.jpg">
+                            </div>
+                        </tr>
+                        <tr>
+                            <h1 class="hep">brooklyn99</h1>
+                            <form>
+                                <h1 class="hep">
+                                    T:<input type="number" name="temporada" id="input_TE">EP: <input type="number" name="episodio" id="input_TE">
+                                </h1>
+                            </form>
+                        </tr>
+                    </tr>
+                </table>
+            </div>
+        </tr>
+    </table>
+    <script>
+        var input = document.querySelector("#input_TE");
+        var temporada = input.value;
+
+        console.log(temporada);
+    </script>
+</body>
+</html>

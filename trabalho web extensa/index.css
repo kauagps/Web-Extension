@@ -1,0 +1,79 @@
+body{
+	background-color: white;
+}
+
+#triangulo{
+	position: absolute;
+	left: 0px;
+	width: 0; 
+	height: 0; 
+	border-top: 688px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 1320px solid #bd9acc;
+}
+
+#imagem_e_button{
+	position: absolute;
+	width: 900px;
+	height: 540px;
+	top: 14%;
+	left: 13%;
+
+}
+
+#imagem{
+	position: relative;
+	float: left;
+	width: 42%;
+	height: 100%;
+	background-color: white;
+}
+
+#space{
+	position: relative;
+	left: 2%;
+	width: 95%;
+	height: 98%;
+}
+
+#titulo_e_button{
+	position: relative;
+	top: 25%;
+	width: 43%;
+	height: 46%;
+	float: right;
+}
+
+h1{
+	font-size: 78px;
+	font-family: cambria;
+	color: #080415;
+}
+h2{
+	position: relative;
+	top: -49px;
+	font-size: 30px;
+	font-family: cambria;
+	color: #080415;
+}
+
+form{
+	border: solid black;
+	position: relative;
+	left: 24%;
+	top: -39px;
+	width: 50%;
+	height: 34%;
+}
+
+input{
+	position: relative;
+	width: 90%;
+	height: 83%;
+	top: 8%;
+	left: 5%;
+	background-color: #080415;
+	color: white;
+	font-family: cambria;
+	font-size: 38px;
+}

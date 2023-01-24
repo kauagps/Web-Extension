@@ -1,0 +1,95 @@
+body{
+	background-image: url("space2.png");
+	background-size: cover;
+}
+
+#triangulo{
+	position: absolute;
+	left: 0px;
+	width: 0; 
+	height: 0; 
+	border-top: 688px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 1320px solid #bd9acc;
+}
+
+#meio{
+	position: absolute;
+	top: 14%;
+	left: 38%;
+	background-color: white;
+	width: 22%;
+	height: 73%;
+}
+
+#titulo{
+	position: relative;
+	left: 23%;
+	width: 55%;
+	box-shadow: 0px 3px 5px #d9d9d9, 0px -3px 5px #d9d9d9;
+	font-family: cambria;
+}
+
+p{
+	position: relative;
+	top: 15px;
+	left: 6%;
+	font-family: cambria;
+	font-weight: bold;
+}
+
+#input{
+	position: relative;
+	border: 1.5px solid #d9d9d9;
+	width: 84%;
+	height: 40px;
+	left: 6%;
+}
+
+#campo{
+	position: relative;
+	top: 20%;
+	left: 4%;
+	width: 87%;
+	height: 50%;
+	background-color: #d9d9d9;
+	border: none;
+}
+
+#input_button{
+	position: relative;
+	border: 1.5px solid black;
+	width: 35%;
+	height: 40px;
+	left: 30%;
+}
+
+#botao{
+	position: relative;
+	border: none;
+	width: 87%;
+	height: 82%;
+	left: 7%;
+	top: 5%;
+	background-color: #080415;
+	color: white;
+	font-family: cambria;
+	font-weight: bold;
+}
+
+a{
+	color: #080415;
+}
+
+#castro{
+	position: relative;
+	left: 26%;
+	font-size: 14px;
+	font-weight: none;
+}
+#linkcadastro{
+	position: relative;
+	top: 0px;
+	left: 32%;
+	font-size: 14px;
+}

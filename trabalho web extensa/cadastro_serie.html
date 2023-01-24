@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>login</title>
+	<link rel="stylesheet" type="text/css" href="cadastro_serie.css">
+</head>
+<body>
+	<div id="meio">
+		<div id="titulo">
+			<h1>cadastro serie</h1>
+		</div>
+		<form method="POST" action="cadastro_serie.php" enctype="multipart/form-data">
+			imagem
+			<input type="file" name="imagem">
+			<br>
+			nome
+			<input type="text" name="nome">
+			<br>
+			quantidade de temporada
+			<input type="number" name="temporada">
+			<br>
+			quantidade de episodio
+			<input type="number" name="episodio">
+			<br>
+			detalhes
+			<input type="text" name="detalhes">
+			<br>
+			<div id="input_button">
+				<input type="submit" name="ENTRAR" value="ENTRAR" id="botao">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
